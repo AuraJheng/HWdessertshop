@@ -1,0 +1,13 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.header a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 73px;
+    vertical-align: center;
+}
