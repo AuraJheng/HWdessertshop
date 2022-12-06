@@ -1,6 +1,6 @@
-/* *{
+*{
     outline: 1px dotted #aaa;
-} */
+}
 .header{
     width: 940px;
     margin: 0 auto;
@@ -193,4 +193,74 @@
     display: inline-block;
     vertical-align: top;
     margin-left: 12px;
+}
+@media screen and (max-width:992px) {
+    .header{
+        width: 375px;
+        margin: 0 auto;
+    }
+    .container-top{
+        width: 375px;
+        height: auto;
+        background-position: center;
+    }
+    .container-top p{
+        font-size: 22px;
+    }
+    .container-down{
+        width: 375px;
+        display: block;
+    }
+    .container-down .kind{
+        width: 375px;
+    }
+    .container-down ul{
+        margin-bottom: 30px;
+    }
+    .container-down .choose a{
+        width: 375px;
+        height: 65px;
+        display: block;
+    }
+    .container-down .item{
+        width: 375px;
+        margin: 0 auto;
+    }
+    .container-down .top{
+        width: 375px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .container-down .tag{
+        width: 315px;
+        margin: 0 auto;
+    }
+    .container-down .detail ul{
+        width: 315px;
+        margin: 0 auto;
+    }
+    .container-down .detail .left{
+        width: 179px;
+    }
+    .container-down .detail .cost{
+        width: 132px;
+    }
+    .container-down .detail .listcar{
+        width: 313px;
+        background-color: #EAF0ED;
+        padding:21px 0;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .container-down .page ul{
+        width: 375px;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+    .footer .content{
+        width: 375px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
 }
